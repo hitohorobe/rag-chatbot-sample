@@ -1,7 +1,6 @@
 # rag-chatbot-sample
-RAG app using gpt-4 + pinecone + streamlit
-
-demo page
+gpt-4 + pinecone + streamlitで作成したチャットボットのサンプルです  
+[デモページ](https://twitter-rag-chatbot.streamlit.app/)
 
 ## セットアップ
 ### アカウント取得
