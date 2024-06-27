@@ -65,8 +65,9 @@ def main():
 
     with st.sidebar:
         openai_api_key = st.sidebar.text_input("OpenAI API Keyをここに入力", type="password")
-        "[Twitter利用規約](https://cdn.cms-twdigitalassets.com/content/dam/legal-twitter/site-assets/privacy-policy-new/pp-tos-ja.pdf)"
         "Pinecone + OpenAIのRAGアプリのデモです。Twitter利用規約に関する質問に回答します。"
+        "[Twitter利用規約](https://cdn.cms-twdigitalassets.com/content/dam/legal-twitter/site-assets/privacy-policy-new/pp-tos-ja.pdf)"
+
     # セッションの初期化
     if "chat_log" not in st.session_state:
         st.session_state.chat_log = []
